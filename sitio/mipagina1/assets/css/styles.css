@@ -1,0 +1,48 @@
+/* This a model-Final Project for
+
+SCIENCE AND TECHNOLOGY DEPARTMENT, Inter American University of Puerto Rico – Fajardo Campus 
+COTN-2220: Implementation & Web Design App Spring 2026 
+
+ 1 Instructor: Fernando Lozano I. Ph.D.
+ Electrical and Computer Engineering 
+
+ */
+
+/************************************************************************/
+
+/* Here below background color */
+
+body {
+  background: black;
+  color: white;
+}
+
+/* Here below the animation code along with Java Script */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Here below the align */
+
+.text-center {
+  text-align: center;
+  font-size: 120px;
+}
+
+/* Here below the image */
+
+.imagen-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
